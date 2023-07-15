@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 5px 200px 50px;
+  justify-content: space-between;
+  background-color: #1F2937;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.container{
+  flex: 1;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 10px;
+  color: white;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 50px 200px;
+  background-color: #1F2937;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.right-section {
+  width: 40%;
+}
+
+.left-section button {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 16px;
+  width: 150px;
+  border-color: #F9FAF8;
+  border-radius: 4px;
+}
+
+.left-section p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.cards-section {
+  margin: 10px 60px 60px 20px;
+  background-color: antiquewhite;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-section {
+  padding: 60px 310px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-section p {
+  font-style: italic;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-section span {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.call-to-action {
+  padding: 80px 120px;
+}
+
+.call-to-action-container {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+}
+
+.call-to-action-container button {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 16px;
+  width: 150px;
+  border-color: #F9FAF8;
+  border-radius: 4px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  font-size: 18px;
+  background-color: #1f2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 50px 100px;
+}
